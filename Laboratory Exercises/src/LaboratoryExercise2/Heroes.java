@@ -240,7 +240,7 @@ public class Heroes {
         if (prva.succ.element.getPower()*prva.succ.element.getNumAttacks()>power)
         {
             power=prva.succ.element.getPower()*prva.succ.element.getNumAttacks();
-            najdobra=prva;
+            najdobra=prva.succ;
         }
         prva=prva.succ;
     }
